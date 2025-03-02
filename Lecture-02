@@ -1,0 +1,16 @@
+1.Add new user
+  adduser username
+2.Delete use
+  deluser username
+3.Change password
+  passwd username
+4.Create a new group
+  addgroup groupname
+5.Add a user to the group
+  usermod -a -G group_name username
+6.Remove a group
+  delgroup groupname
+7.Remove a user
+  gpasswd -d username groupname
+8.List groups
+  groups username
